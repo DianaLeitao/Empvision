@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+.container {
+    max-width: 1110px;
+    margin: auto;
+  }
+
+
+.banner-container{
+    display:flex;
+    grid-template-columns:auto auto;
+    padding-top:150px;
+
+}
+
+.column{
+    padding:20px;
+    text-align:left;
+}
+
+
+/*Text*/
+
+h1{
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: 700;
+    padding: 15px 0;
+}
+
+p{
+    font-size:18px;
+    line-height:28px;
+    font-weight:400;
+}
+
+
+
+
+/*BUTTONS*/
+
+a.btn{
+    margin:20px 0;
+    text-decoration:none;
+}
+
+.btn{
+    font-weight:700;
+    border-radius:60px;
+    display:inline-block;
+    transition:all .2s ease-in-out;
+}
+
+.btn-filled{
+border:none;
+}
+
+.btn-blue{
+color:#000000;
+background-color:#18A0FB;
+}
+
+.btn-banner{
+    font-size:18px;
+    line-height:28px;
+    letter-spacing:0.8px;
+    padding:10px 16px;
+}
+
+
+
+
+
+
+
+/* Responsive Layout*/
+
