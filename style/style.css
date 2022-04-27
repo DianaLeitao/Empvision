@@ -22,6 +22,12 @@
     text-align:left;
 }
 
+.mt{
+    margin-top:130px;
+}
+.mb{
+    margin-bottom:130px;
+}
 
 /*Text*/
 
@@ -72,10 +78,49 @@ background-color:#18A0FB;
 }
 
 
+/* Full Container | Client Portfolio*/
 
 
 
+.full-container{
+    background-position: center center;
+    background-color:#F5F5F5;
+    background-repeat: no-repeat;
+    margin-top: 0;
+    position: relative;
+    height:270px;
+}
+
+.clientPortfolio h2{
+    text-align: center;
+    padding-top:50px;
+    font-size:40px;
+}
 
 
-/* Responsive Layout*/
+/* Slider */
+
+  .slide-portfolio {
+    width: 100%;
+    display: flex;
+    gap: 3em;
+    overflow: hidden;
+  }
+  
+  
+  
+  .clientImg {
+    width: 110px;
+    height: 48px;
+    animation: scroll 60s linear infinite;
+  }
+  
+  .slider {
+    padding: 70px 30px;
+  }
+  
+  @keyframes scroll {
+    0% {transform: translateX(0);}
+    100% {transform: translatex(-1000%)}
+  }
 
