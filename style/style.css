@@ -8,6 +8,9 @@
     font-family: 'Noto Sans', sans-serif;
   }
 
+
+/* Containers */
+
 .container {
     max-width: 1110px;
     margin: auto;
@@ -25,19 +28,16 @@
     text-align:left;
 }
 
+.twocolumns {
+    float: left;
+    width: 50%;
+    padding: 10px;
+  }
+
 .three-column{
     float: left;
     width: 33.33%;
     padding: 10px;
-}
-
-
-
-.mt{
-    margin-top:170px;
-}
-.mb{
-    margin-bottom:170px;
 }
 
 
@@ -47,7 +47,7 @@
 
 
 
-.full-container{
+.full-container-banner{
     background-position: center center;
     background-repeat: no-repeat;
     margin-top: 0;
@@ -55,13 +55,10 @@
     background-size: cover;
 }
 
-.clientPortfolio h2{
-    text-align: center;
-    padding-top:50px;
-    font-size:40px;
+.banner-heading{
+    text-align: left;
+    margin:50px;
 }
-
-
 
   /* Services */
 
@@ -172,7 +169,126 @@ color:#000;
     margin:30px;
 }
 
-.row {
+.row::after {
     content: "";
     display: table;
     clear: both;}
+
+    /* Footer */
+
+.full-container-footer{
+        background-position: center center;
+        background-repeat: no-repeat;
+        margin-top: 0;
+        background-image:url("../img/footer_full_banner.png");
+        background-size: contain;
+        background-position:bottom;
+        height:850px;
+        position:relative;
+    }
+
+    .footer-container{
+
+        position: absolute;
+        left:25%;
+        right:25%;
+        bottom:20px;
+        color:#fff;
+    }
+
+    .footer-container h2{
+        font-size:40px;
+        line-height:80px;
+        text-align:center;
+    }
+
+    .footer-social-media a{
+        text-decoration: none;
+        color: #fff;
+    }
+
+    .footer-social-media ul{
+        padding:0;
+        list-style: none;
+    }
+    .footer-social-media {
+        width: 350px;
+        display:block;
+        margin: 0 auto;
+    }
+
+    /*social media Icons*/
+
+    .social-icon {
+        color: #fff;
+    }
+    ul.social-media-icons {
+        margin-top: 10px;
+        text-align:center;
+    }
+    .social-media-icons li {
+        vertical-align: top;
+        display: inline;
+        height: 100px;
+    }
+    .social-media-icons a {
+        color: #fff;
+        text-decoration: none;
+    }
+    .fa-instagram {
+        padding:10px 14px;
+        font-size: 32px;
+    }
+    .fa-instagram:hover {
+        color: #E52A43;
+    }
+    .fa-facebook-f {
+        padding:2px 3px 0 10px;
+        font-size: 20px;
+        border:3px solid #fff;
+        border-radius:4px;
+        margin-top: 12px;
+    }
+    .fa-facebook-f:hover {
+        color: #E52A43;
+        border:3px solid #E52A43;
+        border-radius:4px;
+    }
+
+    .fa-youtube {
+        padding:10px 14px;
+        font-size: 32px;
+    }
+
+    .fa-youtube:hover {
+        color: #E52A43;
+    }
+
+    .fa-linkedin-in {
+        padding:2px;
+        font-size: 20px;
+        border:3px solid #fff;
+        border-radius:4px;
+        margin-top: 12px;
+        margin-left:24px;
+    }
+
+    .fa-linkedin-in:hover {
+        color: #E52A43;
+    }
+
+
+/*Responsive*/
+@media only screen and (max-width: 600px) {}
+
+
+@media only screen and (min-width: 600px) {}
+
+
+@media only screen and (min-width: 768px) {}
+
+
+@media only screen and (min-width: 992px) {}
+
+
+@media only screen and (min-width: 1200px) {}

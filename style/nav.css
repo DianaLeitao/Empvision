@@ -5,6 +5,7 @@
     height:100px;
     background-color:#fff;
     position: fixed;
+    top: 0;
 }
 
   .logo {
@@ -54,7 +55,7 @@
 }
 
 .burgerbtn.is-active span{
-  background:#fff;
+  background:#000;
 }
 
 .burgerbtn.is-active span:nth-child(1){
@@ -72,7 +73,7 @@ display:none;
 }
 
 .menu{
-  background:#000;
+  background:#fff;
   display:flex;
   justify-content: space-evenly;
   position:fixed;
@@ -97,7 +98,8 @@ display:none;
   flex-direction:column;
   list-style-type:none;
   font-size:48px;
-  color:#fff;
+  font-weight:600;
+  color:#22244F;
 }
 
 .menu_item:not(:last-child) {
@@ -108,7 +110,7 @@ display:none;
   position:relative;
   display:inline-flex;
   font-size:30px;
-  color:#fff;
+  color:#22244F;
   text-decoration:none;
 }
 
@@ -121,7 +123,7 @@ display:none;
   height:3px;
   border-radius:2px;
   display:inline-flex;
-  background:red;
+  background:#E52A43;
   transition:.3s;
 }
 

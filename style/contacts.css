@@ -1,0 +1,52 @@
+.contactContainer{
+    width:100%;
+    height:100vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+form{
+   display:flex;
+   flex-direction:column;
+   padding:2rem;
+   width:90%;
+   max-width:600px;
+   margin-top:120px;
+}
+
+form h3{
+    color:#22244F;
+    font-weight:800;
+    font-size:40px;
+    line-height:50px;
+    margin-bottom:20px;
+}
+
+form input, form textarea{
+border:0;
+margin:10px 0;
+padding:15px;
+outline:none;
+background:#F8F8FF;
+border-radius:20px;
+font-size:16px;
+font-weight:300;
+}
+
+form button{
+    width:150px;
+}
+
+form option{
+    padding:20px;
+}
+
+.error{
+    display:block;
+    font-weight:700;
+    font-size:14px;
+    color:red;
+    display:none;
+}
+
