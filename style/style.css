@@ -24,7 +24,7 @@
 }
 
 .column{
-    padding:20px;
+    padding:10px;
     text-align:left;
 }
 
@@ -81,7 +81,6 @@
     line-height:48px;
     font-weight:400;
     color:#000;
-    opacity: 0.5;
     padding: 0 30px;
 }
 
@@ -95,6 +94,38 @@
     margin-top:50px;
     height:520px;
 }
+
+.services-container-blue{
+    display:flex;
+    grid-template-columns:auto auto;
+    background-color:#22244F;
+    color:#fff;
+    border-radius:30px;
+    margin-top:50px;
+    height:520px;
+}
+.services-container-blue h3{
+    font-size:24px;
+    line-height:23px;
+    font-weight:800;
+    padding-bottom:24px;
+}
+
+.services-container-blue p{
+    font-size:18px;
+    line-height:36px;
+    font-weight:400;
+    padding-bottom:20px;
+}
+
+.column-img{
+    padding: 0 80px;
+}
+
+.column-text{
+    padding:80px;
+}
+
 .services-container h3{
     font-size:24px;
     line-height:23px;
@@ -109,18 +140,6 @@
     padding-bottom:20px;
 }
 
-.servicesImg{
-    width:400px;
-    height:200px;
-}
-
-.servicesImg .right{
-    width:400px;
-    height:200px;
-    position:absolute;
-    bottom:-80px;
-    left:-120px;
-}
 
 .services-container-grey{
     display:flex;
@@ -147,9 +166,6 @@
     padding-bottom:20px;
 }
 
-.services-column{
-position:relative;
-}
 /* Values */
 
 .values{
@@ -164,7 +180,7 @@ color:#000;
 }
 
 .valuesImg{
-    width:56px;
+    width:80px;
     height:56px;
     margin:30px;
 }
@@ -184,7 +200,6 @@ color:#000;
         background-size: contain;
         background-position:bottom;
         height:850px;
-        position:relative;
     }
 
     .footer-container{
