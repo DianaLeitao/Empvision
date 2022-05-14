@@ -7,7 +7,8 @@
     <script src="https://kit.fontawesome.com/3411f1b6ce.js" crossorigin="anonymous"></script>
     <title>Academy | Empvision</title>
     <link rel="stylesheet" href="style/style.css">
-    <link rel="stylesheet" href="style/nav.css">
+    <link rel="stylesheet" href="style/main.css">
+    <link rel="stylesheet" href="style/faqs.css">
     <link rel="stylesheet" href="style/elements.css">
     <script src="javascript/main.js"></script> 
 </head>
@@ -18,7 +19,7 @@
   <div class="navbar">
       <div class="container navbarContainer">
    <div class="logo">
-       <img src="img/logo.png" alt="logo">
+    <a href="index.html"><img src="img/logo.png" alt="logo"></a>
    </div>
    <a href="javascript:;" title="" class="burgerbtn">
     <span></span>
@@ -27,7 +28,7 @@
      <div class="menu">
       <ul class="menu_list">
         <li class="menu_item">Quem Somos</li>
-        <li class="menu_item"><a href="#" class="menu_link">Sobre Nós</a></li>
+        <li class="menu_item"><a href="sobre_nos.html" class="menu_link">Sobre Nós</a></li>
         <li class="menu_item"><a href="contactos.html" class="menu_link">Contactos</a></li>
         <li class="menu_item"><a href="#" class="menu_link">Oportunidades</a></li>
              </ul>
@@ -37,8 +38,6 @@
              <li class="menu_item"><a href="servicos.html" class="menu_link">Serviços</a></li>
              <li class="menu_item"><a href="academy.html" class="menu_link">Academy</a></li>
              <li class="menu_item"><a href="networking.html" class="menu_link">Networking</a></li>
-             <li class="menu_item"><a href="#" class="menu_link">Empvision HUB</a></li>
-             <li class="menu_item"><a href="clientes.html" class="menu_link">Clientes</a></li>
              </ul>
              <ul class="menu_list">
               <li class="menu_item">Recursos</li>
@@ -50,17 +49,261 @@
  </div></div>
 </nav>
 <script src="javascript/nav.js"></script> 
+<!-- Banner Top -->
+<section class="full-container-blue mb">
+  <div class="container banner-container">
+      <div class="heading banner-heading  column">
+        <h3 class="section-heading">Academy</h3>
+          <h2>Formações à medida para gestores<br>e empreendedores</h2>
+  <div class="column">
+  </div>  
+</section>
+
+<!--Academy Courses-->
+
+  <aside class="cards">
+      <div class="heading-services mb-10">
+      <h2>As nossas formações</h2>
+  </div>
+    <div class="cards-container">
+      <div class="interactive-card">
+        <div class="icon card-icon">
+          <i class="fa-solid fa-list-check"></i>
+        </div>
+        <div class="interactive-card-content mt-75">
+          <h2>Gestão e Performance</h2>
+          <p>Gestão de tempo, projetos, trabalho remoto/híbrido e gestão de riscos</p>
+          <a data-modal-open="gestao_performance" class="btn btn-filled btn-white-red btn-md mt-10">Saber mais</a>
+        </div>
+      </div>
+      <div class="interactive-card">
+        <div class="icon card-icon">
+          <i class="fa-solid fa-lightbulb"></i>
+        </div>
+        <div class="interactive-card-content mt-75">
+          <h2>Inovação e Estratégia</h2>
+          <p>Formulação Estratégica (conhecer o seu posicionamento)</p>
+          <a data-modal-open="inovacao_estrateg" class="btn btn-filled btn-white-red btn-md mt-10">Saber mais</a>
+        </div>
+      </div>
+      <div class="interactive-card">
+        <div class="icon card-icon">
+          <i class="fa-solid fa-bullhorn"></i>
+        </div>
+        <div class="interactive-card-content mt-75">
+          <h2>Marketing e Vendas</h2>
+          <p>Técnicas de Venda e gestão pessoal</p>
+          <a data-modal-open="marketing" class="btn btn-filled btn-white-red btn-md mt-10">Saber mais</a>
+        </div>
+      </div>
+      <div class="interactive-card">
+        <div class="icon card-icon">
+          <i class="fa-solid fa-face-grin-stars"></i>
+        </div>
+        <div class="interactive-card-content mt-75">
+          <h2>Customer Experience</h2>
+          <p>Ter a experiência do cliente como foco pode aumentar a percepção de valor e credibilidade da sua marca.</p>
+          <a data-modal-open="customer" class="btn btn-filled btn-white-red btn-md mt-10">Saber mais</a>
+        </div>
+      </div>
+    </div>
+    <!--modal 1 Content-->
+    <div class="modal" id="gestao_performance">
+      <div class="modal-inner">
+        <div class="modal-container">
+          <div class="modal__content">
+            <div class="modal-content">
+              <div class="modal__close modal-close" data-modal-close>
+                <div class="close-icon">&#10006;</div>
+              </div>
+              <h2>Gestão e Performance</h2>
+              <ul class="icon-list">
+                <li class="icon-list__item">
+                  <div class="icon-circle">
+                    <i class="fa-solid fa-check"></i>
+                  </div>
+                  <p>Organização do trabalho</p>
+                </li>
+                <li class="icon-list__item">
+                  <div class="icon-circle">
+                    <i class="fa-solid fa-check"></i>
+                  </div>
+                  <p>Modelação de processos de departamentos</p>
+                </li>
+                <li class="icon-list__item">
+                  <div class="icon-circle">
+                    <i class="fa-solid fa-check"></i>
+                  </div>
+                  <p>Ferramentas para melhorar a produtividade</p>
+                </li>
+                <li class="icon-list__item">
+                  <div class="icon-circle">
+                    <i class="fa-solid fa-check"></i>
+                  </div>
+                  <p>Como medir a performance de equipas</p>
+                </li>
+                <li class="icon-list__item">
+                  <div class="icon-circle">
+                    <i class="fa-solid fa-check"></i>
+                  </div>
+                  <p>Liderar pelo exemplo</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+     <!--End modal 1 Content-->
+      <!--modal 2 Content-->
+    <div class="modal" id="inovacao_estrateg">
+      <div class="modal-inner">
+        <div class="modal-container">
+          <div class="modal__content">
+            <div class="modal-content">
+              <div class="modal__close modal-close" data-modal-close>
+                <div class="close-icon">&#10006;</div>
+              </div>
+              <h2>Inovação e Estratégia</h2>
+              <ul class="icon-list">
+                <li class="icon-list__item">
+                  <div class="icon-circle">
+                    <i class="fa-solid fa-check"></i>
+                  </div>
+                  <p>Gestão de RH – Plano estratégico</p>
+                </li>
+                <li class="icon-list__item">
+                  <div class="icon-circle">
+                    <i class="fa-solid fa-check"></i>
+                  </div>
+                  <p>Como inovar nos produtos/serviços</p>
+                </li>
+                <li class="icon-list__item">
+                  <div class="icon-circle">
+                    <i class="fa-solid fa-check"></i>
+                  </div>
+                  <p>Ferramentas para otimizar as PME</p>
+                </li>
+                <li class="icon-list__item">
+                  <div class="icon-circle">
+                    <i class="fa-solid fa-check"></i>
+                  </div>
+                  <p>Ideias e Oportunidades de Negócio</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+     <!--End modal 2 Content-->
+      <!--modal 3 Content-->
+    <div class="modal" id="marketing">
+      <div class="modal-inner">
+        <div class="modal-container">
+          <div class="modal__content">
+            <div class="modal-content">
+              <div class="modal__close modal-close" data-modal-close>
+                <div class="close-icon">&#10006;</div>
+              </div>
+              <h2>Marketing e Vendas</h2>
+              <ul class="icon-list">
+                <li class="icon-list__item">
+                  <div class="icon-circle">
+                    <i class="fa-solid fa-check"></i>
+                  </div>
+                  <p>Técnicas de Venda e gestão pessoal</p>
+                </li>
+                <li class="icon-list__item">
+                  <div class="icon-circle">
+                    <i class="fa-solid fa-check"></i>
+                  </div>
+                  <p>Estratégias de angariação e retenção de clientes</p>
+                </li>
+                <li class="icon-list__item">
+                  <div class="icon-circle">
+                    <i class="fa-solid fa-check"></i>
+                  </div>
+                  <p>Conhecer o seu cliente – desenhar personas</p>
+                </li>
+                <li class="icon-list__item">
+                  <div class="icon-circle">
+                    <i class="fa-solid fa-check"></i>
+                  </div>
+                  <p>Marketing Estratégico, Tático e Operacional</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+     <!--End modal 3 Content-->
+      <!--modal 4 Content-->
+    <div class="modal" id="customer">
+      <div class="modal-inner">
+        <div class="modal-container">
+          <div class="modal__content">
+            <div class="modal-content">
+              <div class="modal__close modal-close" data-modal-close>
+                <div class="close-icon">&#10006;</div>
+              </div>
+              <h2>Customer Experience</h2>
+              <ul class="icon-list">
+                <li class="icon-list__item">
+                  <div class="icon-circle">
+                    <i class="fa-solid fa-check"></i>
+                  </div>
+                  <p>O que é ser Client Centric?</p>
+                </li>
+                <li class="icon-list__item">
+                  <div class="icon-circle">
+                    <i class="fa-solid fa-check"></i>
+                  </div>
+                  <p>Ideias para se relacionar com o seu cliente</p>
+                </li>
+                <li class="icon-list__item">
+                  <div class="icon-circle">
+                    <i class="fa-solid fa-check"></i>
+                  </div>
+                  <p>Técnicas de atendimento ao público</p>
+                </li>
+                <li class="icon-list__item">
+                  <div class="icon-circle">
+                    <i class="fa-solid fa-check"></i>
+                  </div>
+                  <p>Customer Success</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+     <!--End modal 4 Content-->
+   </div>
+  </aside>
+  <script src="javascript/modal.js"></script>
 
 
 
 
+<!-- Video -->
+<section class="video mt-100">
+  <div class="heading-services mb-10">
+    <h2>Formações à tua medida</h2>
+    <p></p>
+</div>
+  <div class="container">
+  <iframe width="700" height="500" src="https://www.youtube.com/embed/s_slwGtcznk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" class="video" allowfullscreen></iframe></div>
+</section>
 <!-- Footer -->
 
 <section class="full-container-footer mt">
   <div class="container footer-container">
       <div class="heading heading-footer">
           <h3>Vamos conversar?</h3>
-  <a href="" class="btn btn-filled btn-red btn-banner">Contactar</a>
+  <a href="" class="btn btn-filled btn-red btn-lg">Contactar</a>
 </div>
 <div class="footer-social-media">
   <ul class="social-media-icons">

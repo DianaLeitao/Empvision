@@ -47,12 +47,40 @@
 
 
 
-.full-container-banner{
+.full-container-homepage{
     background-position: center center;
     background-repeat: no-repeat;
     margin-top: 0;
     background-image:url("../img/full_banner_homepage.png");
     background-size: cover;
+}
+
+.full-container-banner{
+background-color: #22244F;
+background-image: linear-gradient(to right, #22244F, #E52A43);
+margin-top: 0;
+height:500px;
+}
+
+.full-container-red{
+    background-color: #E52A43;
+    margin-top: 0;
+    height:500px;
+}
+
+.full-container-blue{
+    background-color: #22244F;
+    margin-top: 0;
+    height:500px;
+}
+
+.full-container-photo{
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-image:url("../img/sobre_nos.png");
+    background-size: cover;
+    height:500px;
+    margin-top: 15rem;
 }
 
 .banner-heading{
@@ -64,7 +92,6 @@
 
 .heading-services{
     text-align:center;
-    margin-bottom:100px;
 }
 
 .heading-services h2{
@@ -190,107 +217,46 @@ color:#000;
     display: table;
     clear: both;}
 
-    /* Footer */
 
-.full-container-footer{
-        background-position: center center;
-        background-repeat: no-repeat;
-        margin-top: 0;
-        background-image:url("../img/footer_full_banner.png");
-        background-size: contain;
-        background-position:bottom;
-        height:850px;
-    }
+/*Reviews*/
+.review-card{
+padding:30px;
+width:450px;
+background-color:#F6F6F8;
+border-radius:30px;
+text-align:left;
+margin-left:50px;
+margin-right:50px;
+}
 
-    .footer-container{
+.review-card p{
+    font-size:18px;
+    color:#000;
+    line-height:32px;
+}
 
-        position: absolute;
-        left:25%;
-        right:25%;
-        bottom:20px;
-        color:#fff;
-    }
+.review-img{
+    text-align: left;
+    width: 15%;
+}
 
-    .footer-container h2{
-        font-size:40px;
-        line-height:80px;
-        text-align:center;
-    }
+.review p{
+    font-size:16px;
+    font-weight:700;
+    color:#929292;
+    line-height:32px;
+    text-align:left;
+    ;
+}
+.review h3{
+    font-size:16px;
+    font-weight:700;
+    color:#000;
+    line-height:32px;
+    text-align:left;
+}
 
-    .footer-social-media a{
-        text-decoration: none;
-        color: #fff;
-    }
 
-    .footer-social-media ul{
-        padding:0;
-        list-style: none;
-    }
-    .footer-social-media {
-        width: 350px;
-        display:block;
-        margin: 0 auto;
-    }
-
-    /*social media Icons*/
-
-    .social-icon {
-        color: #fff;
-    }
-    ul.social-media-icons {
-        margin-top: 10px;
-        text-align:center;
-    }
-    .social-media-icons li {
-        vertical-align: top;
-        display: inline;
-        height: 100px;
-    }
-    .social-media-icons a {
-        color: #fff;
-        text-decoration: none;
-    }
-    .fa-instagram {
-        padding:10px 14px;
-        font-size: 32px;
-    }
-    .fa-instagram:hover {
-        color: #E52A43;
-    }
-    .fa-facebook-f {
-        padding:2px 3px 0 10px;
-        font-size: 20px;
-        border:3px solid #fff;
-        border-radius:4px;
-        margin-top: 12px;
-    }
-    .fa-facebook-f:hover {
-        color: #E52A43;
-        border:3px solid #E52A43;
-        border-radius:4px;
-    }
-
-    .fa-youtube {
-        padding:10px 14px;
-        font-size: 32px;
-    }
-
-    .fa-youtube:hover {
-        color: #E52A43;
-    }
-
-    .fa-linkedin-in {
-        padding:2px;
-        font-size: 20px;
-        border:3px solid #fff;
-        border-radius:4px;
-        margin-top: 12px;
-        margin-left:24px;
-    }
-
-    .fa-linkedin-in:hover {
-        color: #E52A43;
-    }
 
 
 /*Responsive*/
