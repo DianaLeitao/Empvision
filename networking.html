@@ -9,48 +9,52 @@
     <link rel="stylesheet" href="style/style.css">
     <link rel="stylesheet" href="style/main.css">
     <link rel="stylesheet" href="style/faqs.css">
-    <link rel="stylesheet" href="style/elements.css">
-    <script src="javascript/main.js"></script>  
+    <link rel="stylesheet" href="style/elements.css"><link rel="stylesheet" href="style/responsive.css">
+    <script src="javascript/main.js"></script>
+    <script src="javascript/tabs.js"></script>    
 </head>
 <body>
  
-  <!-- Navigation Bar -->
+   <!-- Navigation Bar -->
+   <div class="nav">
+    <div class="navbar">
+        <div class="container navbarContainer">
+     <div class="logo">
+      <a href="index.html"><img src="img/logo.png" alt="logo"></a>
+     </div>
+     <a href="javascript:;" title="" class="burgerbtn">
+      <span></span>
+       <span></span>
+       <span></span></a>
+       <div class="menu">
+        <ul class="menu_list">
+          <li class="menu_item">Quem Somos</li>
+          <li class="menu_item"><a href="sobre_nos.html" class="menu_link">Sobre Nós</a></li>
+          <li class="menu_item"><a href="contactos.html" class="menu_link">Contactos</a></li>
+          <li class="menu_item"><a href="#" class="menu_link">Oportunidades</a></li>
+               </ul>
+          
+               <ul class="menu_list">
+               <li class="menu_item">O que fazemos</li>
+               <li class="menu_item"><a href="servicos.html" class="menu_link">Serviços</a></li>
+               <li class="menu_item"><a href="academy.html" class="menu_link">Academy</a></li>
+               <li class="menu_item"><a href="networking.html" class="menu_link">Networking</a></li>
+               </ul>
+               <ul class="menu_list">
+                <li class="menu_item">Recursos</li>
+                <li class="menu_item"><a href="#" class="menu_link">Blog</a></li>
+                <li class="menu_item"><a href="#" class="menu_link">Ferramentas</a></li>
+                <li class="menu_item"><a href="#" class="menu_link">Media</a></li>   
+              </ul>
+          </div>
+   </div></div>
+  </div>
+  <script src="javascript/nav.js"></script> 
   
-<nav>
-  <div class="navbar">
-      <div class="container navbarContainer">
-   <div class="logo">
-    <a href="index.html"><img src="img/logo.png" alt="logo"></a>
-   </div>
-   <a href="javascript:;" title="" class="burgerbtn">
-    <span></span>
-     <span></span>
-     <span></span></a>
-     <div class="menu">
-      <ul class="menu_list">
-        <li class="menu_item">Quem Somos</li>
-        <li class="menu_item"><a href="sobre_nos.html" class="menu_link">Sobre Nós</a></li>
-        <li class="menu_item"><a href="contactos.html" class="menu_link">Contactos</a></li>
-        <li class="menu_item"><a href="#" class="menu_link">Oportunidades</a></li>
-             </ul>
-        
-             <ul class="menu_list">
-             <li class="menu_item">O que fazemos</li>
-             <li class="menu_item"><a href="servicos.html" class="menu_link">Serviços</a></li>
-             <li class="menu_item"><a href="academy.html" class="menu_link">Academy</a></li>
-             <li class="menu_item"><a href="networking.html" class="menu_link">Networking</a></li>
-             </ul>
-             <ul class="menu_list">
-              <li class="menu_item">Recursos</li>
-              <li class="menu_item"><a href="#" class="menu_link">Blog</a></li>
-              <li class="menu_item"><a href="#" class="menu_link">Ferramentas</a></li>
-              <li class="menu_item"><a href="#" class="menu_link">Media</a></li>   
-            </ul>
-        </div>
- </div></div>
-</nav>
-<script src="javascript/nav.js"></script> 
-
+  
+  
+  <div class="page-content">
+  
 <!-- Banner Top -->
 <section class="full-container-banner mb">
   <div class="container banner-container">
@@ -60,7 +64,6 @@
   <div class="column">
   </div>  
 </section>
-
 
 <!-- Caroucel-->
 <section class="caroucel-container">
@@ -179,7 +182,132 @@
   </div>
 </section>
 <script src="javascript/caroucel.js"></script> 
+<!--Tabs-->
+<section class="container text-center">
+  <div class="heading heading-blue">
+  <h2>Networking na Empvision</h2>
+  <p>Descobre tudo sobre como o networking da empvision</p>
+  </div>
+  <div class="tab">
+    <button class="tablinks" onclick="openInfo(event, 'Conceito')">Qual é o Conceito <br><span>+</span></button>
+    <button class="tablinks" onclick="openInfo(event, 'Objetivos')">Quais são os Objetivos <br><span>+</span></button>
+    <button class="tablinks" onclick="openInfo(event, 'Funciona')">Como Funciona <br><span>+</span></button>
+  </div>
+  
+  <div id="Conceito" class="tabcontent">
+    <h3>Descrição</h3>
+    <p>A Empvision acredita que os negócios são potenciados pelo estabelecimento de relações de confiança entre empreendedores. Além disso, a partilha de experiências ajuda-nos a gerir o risco e identificar oportunidades de forma mais eficaz.</p>
+    <p>Um grupo que começou com os primeiros participantes do curso de Business Design, acabou por tornar-se uma plataforma de networking, que hoje ganha forma e enquadramento.</p>
+  </div>
+  
+  <div id="Objetivos" class="tabcontent">
+    <h3>Objetivos</h3>
+    <ul class="icon-list">
+      <li class="icon-list__item">
+        <div class="icon-circle">
+          <i class="fa-solid fa-check"></i>
+        </div>
+        <p>Organização do trabalho</p></li>
+       <li class="icon-list__item">
+        <div class="icon-circle">
+          <i class="fa-solid fa-check"></i>
+        </div>
+        <p>Manter os empreendedores atualizados relativamente ao seu setor</p></li>
+       <li class="icon-list__item">
+        <div class="icon-circle">
+          <i class="fa-solid fa-check"></i>
+        </div>
+        <p>Apoiar empresários, promovendo os serviços e produtos dos seus membros, por referência, criando relações de confiança</p></li>
+       <li class="icon-list__item">
+        <div class="icon-circle">
+          <i class="fa-solid fa-check"></i>
+        </div>
+        <p>Potenciar a criação de parcerias duradouras entre empresários</p></li>
+       <li class="icon-list__item">
+        <div class="icon-circle">
+          <i class="fa-solid fa-check"></i>
+        </div>
+        <p>Apostar no desenvolvimento pessoal e formação dos Empvisionários.</p></li>
+       <li class="icon-list__item">
+        <div class="icon-circle">
+          <i class="fa-solid fa-check"></i>
+        </div>
+        <p>Acesso a um código promocional para membros, que permite condições especiais</p></li>
+    </ul>
+  </div>
+  
+  <div id="Funciona" class="tabcontent">
+    <h3>Como Funciona</h3>
+    <ul class="icon-list">
+       <li class="icon-list__item">
+        <div class="icon-circle">
+          <i class="fa-solid fa-check"></i>
+        </div>
+        <p>Experiência Phygital  – Combinamos a experiência online com a experiência física</p></li>
+       <li class="icon-list__item">
+        <div class="icon-circle">
+          <i class="fa-solid fa-check"></i>
+        </div>
+        <p>Integração de um grupo de Whatsapp + Grupo no Linkedin</p></li>
+       <li class="icon-list__item">
+        <div class="icon-circle">
+          <i class="fa-solid fa-check"></i>
+        </div>
+        <p>1 reunião mensal online, em grupos pequenos, com ordem de trabalhos estruturada</p></li>
+       <li class="icon-list__item">
+        <div class="icon-circle">
+          <i class="fa-solid fa-check"></i>
+        </div>
+        <p>Acesso a um plano de formação semestral</p></li>
+       <li class="icon-list__item">
+        <div class="icon-circle">
+          <i class="fa-solid fa-check"></i>
+        </div>
+        <p>Acesso a um código promocional para membros, que permite condições especiais</p></li>
+    </ul>
+  </div>
+  </section>
 
+<!-- Values -->
+
+<section class="container values mt-100">
+  <div class="heading heading-blue">
+      <h2>O que nos distingue</h2>
+  </div>
+  <div class="row">
+  <div class="three-column">
+      <h3>Adaptamo-nos à realidade atual dos empresários</h3>
+  </div>
+  <div class="three-column">
+      <h3>Não temos formação obrigatória</h3>
+  </div>
+  <div class="three-column">
+      <h3>Os nossos eventos presenciais são dinâmicos</h3></div></div>
+</section>
+
+<!-- Values -->
+
+<section class="container values mt-100">
+  <div class="heading heading-blue">
+      <h2>Para ficares com todos os detalhes</h2>
+  </div>
+  <div class="row">
+  <div class="twocolumns">
+    <div class="card-module card-blue text-left">
+      <h2>Preços</h2>
+      <p>&#10004; 100€ /ano ou 75€ /semestre</p>
+      <p>&#10004; Participação pontual nas nossas reuniões: 15€.</p>
+      <p class="small mt-10">A este valor acresce o IVA a 23%.</p>
+  </div></div>
+  <div class="twocolumns">
+    <div class="card-module card-blue text-left">
+      <h2>Reuniões</h2>
+      <p>&#10004; Mensalmente das 12h00 e ás 13h30.</p>
+      <p>&#10004; Próximas datas: 6 de maio</p>
+      <p class="small mt-10">Os eventos presenciais acontecem em maio e em dezembro</p>
+  </div></div>
+ </div>
+</section>
 
 <!-- Footer -->
 
@@ -187,7 +315,7 @@
   <div class="container footer-container">
       <div class="heading heading-footer">
           <h3>Vamos conversar?</h3>
-  <a href="" class="btn btn-filled btn-red btn-banner">Contactar</a>
+  <a href="" class="btn btn-filled btn-red btn-lg">Contactar</a>
 </div>
 <div class="footer-social-media">
   <ul class="social-media-icons">
@@ -199,5 +327,6 @@
 </div>
   </div>  
 </section>
+</div>
 </body>
 </html>

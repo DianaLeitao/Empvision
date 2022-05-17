@@ -51,6 +51,7 @@
     margin-top: 0;
     background-image:url("../img/full_banner_homepage.png");
     background-size: cover;
+    height:700px;
 }
 
 .full-container-banner{
@@ -144,7 +145,8 @@ height:500px;
 }
 
 .column-img{
-    padding: 0 80px;
+    position: relative;
+    right: 100px;
 }
 
 .column-text{
