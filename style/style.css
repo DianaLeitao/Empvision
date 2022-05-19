@@ -58,19 +58,19 @@
 background-color: #22244F;
 background-image: linear-gradient(to right, #22244F, #E52A43);
 margin-top: 0;
-height:500px;
+height: fit-content;
 }
 
 .full-container-red{
     background-color: #E52A43;
     margin-top: 0;
-    height:500px;
+    height: fit-content;
 }
 
 .full-container-blue{
     background-color: #22244F;
     margin-top: 0;
-    height:500px;
+    height: fit-content;
 }
 
 .full-container-photo{
